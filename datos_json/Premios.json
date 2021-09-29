@@ -1,0 +1,152 @@
+[
+    {
+        "id_categoria": 1,
+        "nombre": "Sarten",
+        "marca": "Immusa",
+        "detalle": "Sarten de 18cm de diametro, antiaderente",
+        "path_foto": "/static/images/premios/sarten.png",
+        "cantidad": 20,
+        "valor_puntos": 200,
+        "visible": true
+    },
+    {
+        "id_categoria": 1,
+        "nombre": "Plancha de ropa",
+        "marca": "Oster",
+        "detalle": "Plancha de Ropa Oster Vapor Inalambrica",
+        "path_foto": "/static/images/premios/PlanchaOster.png",
+        "cantidad": 10,
+        "valor_puntos": 300,
+        "visible": true
+    },
+    {
+        "id_categoria": 1,
+        "nombre": "Cafetera",
+        "marca": "Black & Decker",
+        "detalle": "Cafetera Black & Decker 12 tazas Negro",
+        "path_foto": "/static/images/premios/Cafetera.png",
+        "cantidad": 20,
+        "valor_puntos": 250,
+        "visible": true
+    },
+    {
+        "id_categoria": 2,
+        "nombre": "Pet Bow",
+        "marca": "DawpetShop",
+        "detalle": "Pet Bow Elegant Color Surtido 29,5 Cm",
+        "path_foto": "/static/images/premios/PetBow.png",
+        "cantidad": 10,
+        "valor_puntos": 50,
+        "visible": true
+    },
+    {
+        "id_categoria": 2,
+        "nombre": "Tula Mascota",
+        "marca": "Totto",
+        "detalle": "Cargador para gatos o perros de raza pequeña",
+        "path_foto": "/static/images/premios/TulaMascota.png",
+        "cantidad": 20,
+        "valor_puntos": 250,
+        "visible": true
+    },
+    {
+        "id_categoria": 2,
+        "nombre": "Alimentador Automatico para Gatos",
+        "marca": "Wopet",
+        "detalle": "Alimentador Automatico Para Gatos Wopet",
+        "path_foto": "/static/images/premios/AlimentadorGatos.png",
+        "cantidad": 15,
+        "valor_puntos": 250,
+        "visible": true
+    },
+    {
+        "id_categoria": 3,
+        "nombre": "Correa de Hombre",
+        "marca": "Bosi",
+        "detalle": "Correa 1023 Cafe Bosi",
+        "path_foto": "/static/images/premios/Correa.png",
+        "cantidad": 10,
+        "valor_puntos": 180,
+        "visible": true
+    },
+    {
+        "id_categoria": 3,
+        "nombre": "Aretes",
+        "marca": "Johana Manchola Boutique",
+        "detalle": "Aretes Mujer Hoja Metalicos color Dorado",
+        "path_foto": "/static/images/premios/Aretes.png",
+        "cantidad": 10,
+        "valor_puntos": 80,
+        "visible": true
+    },
+    {
+        "id_categoria": 3,
+        "nombre": "Bufanda",
+        "marca": "Arturo Calle",
+        "detalle": "Bufanda textura tejida para hombre, color verde oscuro",
+        "path_foto": "/static/images/premios/Bufanda.png",
+        "cantidad": 15,
+        "valor_puntos": 95,
+        "visible": true
+    },
+    {
+        "id_categoria": 4,
+        "nombre": "Banda Elastica",
+        "marca": "TecSports",
+        "detalle": "Banda de ejercicio",
+        "path_foto": "/static/images/premios/banda.png",
+        "cantidad": 10,
+        "valor_puntos": 100,
+        "visible": true
+    },
+    {
+        "id_categoria": 4,
+        "nombre": "Full Training Pad",
+        "marca": "Fit & Fury",
+        "detalle": "Colchoneta profesional con acabado resistente y de alto rendimiento",
+        "path_foto": "/static/images/premios/TrainingPad.png",
+        "cantidad": 15,
+        "valor_puntos": 130,
+        "visible": true
+    },
+    {
+        "id_categoria": 4,
+        "nombre": "Rueda Abdominal",
+        "marca": "Fit & Fury",
+        "detalle": "Accesorio para trabajar y fortalecer la zona abdominal",
+        "path_foto": "/static/images/premios/Rueda.png",
+        "cantidad": 15,
+        "valor_puntos": 120,
+        "visible": true
+    },
+    {
+        "id_categoria": 5,
+        "nombre": "Juego de Destornilladores",
+        "marca": "Jigong",
+        "detalle": "Juego de brocas magneticas 115 en 1",
+        "path_foto": "/static/images/premios/Destornilladores.png",
+        "cantidad": 10,
+        "valor_puntos": 150,
+        "visible": true
+    },
+    {
+        "id_categoria": 5,
+        "nombre": "Caja de Herramientas",
+        "marca": "Rimax",
+        "detalle": "Caja de herramienta grande. Resistente y funcional",
+        "path_foto": "/static/images/premios/CajaHerramientas.png",
+        "cantidad": 20,
+        "valor_puntos": 100,
+        "visible": true
+    },
+    {
+        "id_categoria": 5,
+        "nombre": "Cinturon Porta Herramientas",
+        "marca": "Stanley",
+        "detalle": "Cinturon Porta Herramientas Stanley",
+        "path_foto": "/static/images/premios/Cinturon.png",
+        "cantidad": 10,
+        "valor_puntos": 160,
+        "visible": true
+    }
+]
