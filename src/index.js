@@ -22,6 +22,8 @@ mongoose
             console.log("Database could't be connected to: " + error);
         }
     );
+
+//ruta
 const premioAPI = require("./routes/premio.router");
 const app = express();
 
