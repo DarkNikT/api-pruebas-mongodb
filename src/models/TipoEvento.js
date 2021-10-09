@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-let CategoriaEventoSchema = new Schema(
+let TipoEventoSchema = new Schema(
     {
         _id: {
             type: Number,
@@ -12,7 +12,7 @@ let CategoriaEventoSchema = new Schema(
         },
     },
     {
-        collection: "categoria_eventos"
+        collection: "tipo_eventos"
     }
 );
-module.exports = mongoose.model("CategoriaEvento", CategoriaEventoSchema);
+module.exports = mongoose.model("TipoEvento", TipoEventoSchema);

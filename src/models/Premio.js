@@ -6,7 +6,7 @@ const ObjectId = mongoose.Schema.Types.ObjectId;
 let PremioSchema = new Schema(
     {
         id_categoria: {
-            type: ObjectId,
+            type: Number,
             ref: "CategoriaPremio"
         },
         nombre: {
@@ -27,9 +27,16 @@ let PremioSchema = new Schema(
         valor_puntos: {
             type: Number,
         },
-        visible:{
+        visible: {
             type: Boolean,
-        }
+            default: true
+        },
+    }, {
+    timestamps: {
+        createdAt: 'created',
+        updatedAt: 'updated',
     },
+}
+
 );
 module.exports = mongoose.model("Premio", PremioSchema);

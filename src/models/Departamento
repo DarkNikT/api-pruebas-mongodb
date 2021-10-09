@@ -1,18 +1,17 @@
 const mongoose = require("mongoose");
-
 const Schema = mongoose.Schema;
-
-let CategoriaEventoSchema = new Schema(
+let DepartamentoSchema = new Schema(
     {
-        _id: {
+        _id:{
             type: Number,
         },
         nombre: {
             type: String,
+            required: true
         },
     },
     {
-        collection: "categoria_eventos"
+        collection: "departamentos",
     }
 );
-module.exports = mongoose.model("CategoriaEvento", CategoriaEventoSchema);
+module.exports = mongoose.model("Departamento", DepartamentoSchema);

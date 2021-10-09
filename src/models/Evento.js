@@ -5,38 +5,54 @@ const ObjectId = mongoose.Schema.Types.ObjectId;
 
 let EventoSchema = new Schema(
     {
-        _id: {
+        id_categoria: {
             type: Number,
+            ref: "CategoriaEvento"
         },
-        tipo_evento_id: {
-            type: ObjectId,
+        id_tipo: {
+            type: Number,
             ref: "TipoEvento"
         },
-        categoria_evento_id: {
-            type: ObjectId,
-            ref: "CategoriaEvento"
+        id_sursal:{
+            type: Number,
+            ref: "Sucursal"
         },
         titulo:{
             type: String,
         },
-        fecha: {
-            type: Date,
-        },
-        premio_marca: {
+        descripcion:{
             type: String,
         },
-        premio_detalle: {
+        fecha_inicio: {
             type: String,
         },
-        premio_path_foto: {
+        fecha_final: {
             type: String,
         },
-        premio_cantidad: {
-            type: Number,
+        lugar:{
+            type: String
         },
-        premio_valor_puntos: {
-            type: Number,
+        url:{
+            type: String
         },
-    },
+        path_foto:{
+            type: String
+        },
+        cupo:{
+            type: Number
+        },
+        valor_puntos:{
+            type: Number
+        },
+        disponible:{
+            type: Boolean, default: true
+        }
+    },{
+        timestamps: {
+            createdAt: 'created',
+            updatedAt: 'updated',
+        },
+    }
+
 );
 module.exports = mongoose.model("Evento", EventoSchema);

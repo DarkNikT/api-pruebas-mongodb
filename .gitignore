@@ -1,2 +1,3 @@
 // carpeta node
 node_modules/
+.env
